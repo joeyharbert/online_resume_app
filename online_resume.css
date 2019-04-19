@@ -50,6 +50,10 @@ body {
   transition: .5s;
 }
 
+.body p{
+  margin-top: -15px;
+}
+
 .body:hover {
   background-color: rgb(255,255,255);
 }
