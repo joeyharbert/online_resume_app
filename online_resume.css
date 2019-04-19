@@ -59,6 +59,7 @@ body {
 }
 
 .header {
+  margin-top: 0;
   width: auto;
   height: 30px;
   padding: 1px 0px 30px 40px;
@@ -80,3 +81,5 @@ h4 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+
