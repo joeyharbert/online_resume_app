@@ -3,7 +3,7 @@
     <h1>{{ message }}</h1>
 
     <div class="header">
-    <p>Online-Resume</p>
+      <p>Online-Resume</p>
     </div>
 
     <div class="image">
