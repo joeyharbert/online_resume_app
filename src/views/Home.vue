@@ -11,6 +11,7 @@
       <p>Phone: {{ student.phone_number }}</p>
       <p>Email: {{ student.email }}</p>
       <p>Twitter: </p>
+      <a class="twitter-timeline" data-width="220" data-height="450" data-theme="dark" href="https://twitter.com/joeyharbert?ref_src=twsrc%5Etfw">Tweets by joeyharbert</a>
     </div>
 
     <div></div> 
