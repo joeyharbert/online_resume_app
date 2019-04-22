@@ -1,5 +1,19 @@
 body {
-  background: rgb(177, 196, 226);
+  background-image: url(rockywall.png);
+}
+
+.header {
+  margin: -10px;
+  width: auto;
+  height: 30px;
+  padding: 1px 0px 30px 40px;
+  text-align: left;
+  background: rgb(50,50,50);
+  color: rgb(220,220,220);
+  font-family: "gill sans", arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 40px;
 }
 
 .image {
@@ -50,26 +64,12 @@ body {
   transition: .5s;
 }
 
-.body p{
+.body p {
   margin-top: -15px;
 }
 
 .body:hover {
   background-color: rgb(255,255,255);
-}
-
-.header {
-  margin-top: 0;
-  width: auto;
-  height: 30px;
-  padding: 1px 0px 30px 40px;
-  text-align: left;
-  background: rgb(50,50,50);
-  color: rgb(220,220,220);
-  font-family: "gill sans", arial, sans-serif;
-  font-size: 20px;
-  font-weight: 200;
-  margin-bottom: 40px;
 }
 
 h4 {
