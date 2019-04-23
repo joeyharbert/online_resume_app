@@ -11,6 +11,7 @@
       <p>Phone: {{ student.phone_number }}</p>
       <p>Email: {{ student.email }}</p>
       <p>Twitter: </p>
+      <a class="twitter-timeline" data-width="220" data-height="450" data-theme="dark" :href="'https://twitter.com/'+  student.twitter + '?ref_src=twsrc%5Etfw'">Tweets by {{ student.first_name }} {{ student.last_name }}</a>
     </div>
 
     <div></div> 
@@ -46,12 +47,12 @@
 </style>
 
 <script>
-  import axios from "axios";
 export default {
   data: function() {
     return {
       message: "Welcome to Vue.js!",
-      student: {}
+      student: {},
+      twitter: "joeyharbert"
     };
   },
   created: function() {
