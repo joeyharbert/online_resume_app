@@ -63,7 +63,7 @@ export default {
     };
   },
   created: function() {
-    axios.get('/api/test').then(response => {
+    axios.get('/api/students/' + this.$route.params.id).then(response => {
       this.student = response.data;
       console.log(this.student);
     });
