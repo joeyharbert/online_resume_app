@@ -1,20 +1,23 @@
 <template>
   <div class="home">
-    <h1>{{ message }}</h1>
-
     <div class="header">
       <p>Online-Resume</p>
     </div>
 
-    <div class="image">
-      <h3>Hello! I'm {{ student.first_name }} {{ student.last_name }}</h3>
-      <p>Phone: {{ student.phone_number }}</p>
-      <p>Email: {{ student.email }}</p>
-      <p>Twitter: </p>
-      <a class="twitter-timeline" data-width="220" data-height="450" data-theme="dark" :href="'https://twitter.com/'+  student.twitter + '?ref_src=twsrc%5Etfw'">Tweets by {{ student.first_name }} {{ student.last_name }}</a>
-    </div>
 
-    <div></div> 
+    <div class="contact">
+      <div>
+        <img :src="student.photo">
+      </div>
+      <div class="info">
+        <h3>Hello! I'm {{ student.first_name }} {{ student.last_name }}</h3>
+        <p>Phone: {{ student.phone_number }}</p>
+        <p>Email: {{ student.email }}</p>
+        <p><a :href="student.website">My Website</a></p>
+        <p><a href="/">Online Resume</a></p>
+        <p>Twitter: </p>
+      </div>
+    </div>
 
     <div class="body">
       <h4>A Little Bit About Me</h4>
@@ -40,6 +43,8 @@
         <p>{{ education.details }}</p>
       </div>
     </div>
+
+
   </div>
 </template>
 

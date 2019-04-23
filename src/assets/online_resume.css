@@ -2,19 +2,25 @@ body {
   background: rgb(177, 196, 226);
 }
 
-.image {
+.contact {
   float: left;
   border-radius: 20px;
-  /*background: url(jackson2.gif);*/
   box-shadow: 6px 6px 15px rgb(100,100,100);
   background-position: left top;
-  padding: 20px; 
   width: 200px;
   height: 300px;
   margin-left: 10%; 
 }
 
-.image h3 {
+.contact img{
+  border-radius: 20px;
+  float: left; 
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.contact h3 {
   text-align: center; 
   font-family: "gill sans", arial, sans-serif;
   font-size: 18px;
@@ -24,7 +30,7 @@ body {
    
 }
 
-.image p {
+.contact p {
   max-width: 300px;
   text-align: center; 
   font-family: "gill sans", arial, sans-serif;
